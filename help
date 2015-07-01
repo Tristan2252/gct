@@ -1,0 +1,37 @@
+
+------- Panel Settings -------
+
+#panel:overview
+    background-color and border-color: change the color of the panel when in overview
+    view. Overview view is when all applications are viable as well as the side panel.
+
+.panel-button:focus
+    color: the color the icons or text change to when they are clicked on or selected.
+    background-color: the background color of the selected area within the panel.
+    border-color: the border color of the selected area within the panel.
+
+.panel-button:hover:overview
+    border-color: the border color of an item in the panel when it is hovered over.
+    background-color: the background color of an item in the panel when it is hovered over.
+
+------- Popup Settings -------
+
+.candidate-popup-boxpointer
+    -arrow-background-color: the background color of the popup menu.
+    -arrow-border-color: color of the border that surrounds the popup menu
+    background-color: background color behind the popup menu.
+    color: the color of the text within the popup menu
+    border-color: color of borders within the popup menu
+
+.popup-menu-item:active
+    color: color of text and icons within the popup menu when hovered over
+    background-color: background color of items that are hovered over within the popup menu
+    border-color: border color of items within the popup menu when they are hovered over
+
+.popup-sub-menu
+    background-color: the background color of the sub-menu within the popup menu
+
+.popup-submenu-menu-item:open
+    background-color: the background color of the selected sub-menu item when not hovered over.
+
+------- Button Settings -------

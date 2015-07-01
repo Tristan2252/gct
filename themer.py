@@ -213,7 +213,9 @@ class OpenText(object):
         the string
         :return: str  # joined contents of file
         """
-        return "".join(self.contents)
+        text =  "".join(self.contents)
+        clean_text = text.replace("#", "")
+        return clean_text
 
 
 def update():
